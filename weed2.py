@@ -27,7 +27,7 @@ def toStart(storeList, lookAt):
     print("\nAt " + store.name + ": ")
     if lookAt == "terp":
       many = input("Are you looking for more than one terpene? ")
-      look = input("what terpene are you looking for? ")
+      look = input("what terpene(s) are you looking for (comma separated)? ")
       result = checkTerpenes(store.listOfThings, many, look)
     elif lookAt == "effects":
       effectsList = input("what effects are you looking for? \n (comma separated)\n ")
